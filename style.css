@@ -287,7 +287,12 @@ main {
 .titleone {
   font-size: 20vw;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: 150px;
+  /* margin-left: 150px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   text-shadow: 10px 10px 5px rgba(224, 156, 165, 0.705);
   animation: fallAndBounce 0.5s cubic-bezier(1, 0.7, 0.3, 0.01);
 }
