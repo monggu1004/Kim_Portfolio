@@ -1,9 +1,8 @@
-const aboutSkill=document.querySelector(".submenu-n2")
+const aboutSkill = document.querySelector(".submenu-n2");
 
-
-function skilEvent(){
-const skillPage = document.querySelector(".skillpage")
-skillPage.scrollIntoView({behavior: "smooth", block:"start"})
+function skilEvent() {
+  const skillPage = document.querySelector(".skillpage");
+  skillPage.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-aboutSkill.addEventListener("click", skilEvent)
+aboutSkill.addEventListener("click", skilEvent);
