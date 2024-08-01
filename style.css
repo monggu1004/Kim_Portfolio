@@ -59,7 +59,7 @@ body {
   .smenu3,
   .smenu4 {
     width: 60vw;
-    height: 15vw;
+    height: 20%;
     font-size: 5vw;
     font-weight: bolder;
     border-radius: 30px;
@@ -79,10 +79,19 @@ body {
 }
 
 .home {
-  font-size: 50px;
+  font-size: 3vw;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 2vw;
+  right: 3vw;
+}
+.fa-hand-point-up {
+  transition: all 200ms ease-in-out;
+}
+.fa-hand-point-up:hover {
+  color: rgb(180, 135, 180);
+}
+.fa-hand-point-up:active {
+  font-weight: bolder;
 }
 
 header {
@@ -155,7 +164,6 @@ nav {
   padding: 10px 30px;
   cursor: pointer;
 }
-
 .smenu1,
 .smenu2,
 .smenu3,
@@ -180,6 +188,16 @@ nav {
   box-shadow: rgb(192, 69, 165);
   transform: scale(1.05);
   transition: all 100ms ease-in-out;
+}
+
+.submenu-n4,
+.submenu-n3,
+.submenu-n2,
+.submenu-n1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
 }
 
 /* .nav-menunone {
@@ -343,8 +361,8 @@ main {
   .home {
     font-size: 7vw;
     position: fixed;
-    bottom: 10vw;
-    right: 10vw;
+    bottom: 20px;
+    right: 20px;
   }
   .fa-bars {
     font-size: 7vw;
