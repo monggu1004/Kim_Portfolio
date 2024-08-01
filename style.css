@@ -59,7 +59,7 @@ body {
   .smenu3,
   .smenu4 {
     width: 60vw;
-    height: 20%;
+    height: 15vw;
     font-size: 5vw;
     font-weight: bolder;
     border-radius: 30px;
@@ -152,17 +152,8 @@ nav {
 .submenu-n3,
 .submenu-n4 {
   width: 20vw;
-  padding: 2vw 5vw;
+  padding: 10px 30px;
   cursor: pointer;
-}
-.submenu-n4,
-.submenu-n3,
-.submenu-n2,
-.submenu-n1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3vw;
 }
 
 .smenu1,
@@ -190,33 +181,7 @@ nav {
   transform: scale(1.05);
   transition: all 100ms ease-in-out;
 }
-@media all and (max-width: 768px) {
-  .smenu1,
-  .smenu2,
-  .smenu3,
-  .smenu4 {
-    transition: all 200ms ease-in-out;
-    border-radius: 20px;
-    box-shadow: rgba(192, 69, 165, 0.861);
-    background-color: rgba(219, 219, 219, 0.694);
-    /* padding: 2vw 0.5vw; */
-  }
-  .smenu1:hover,
-  .smenu2:hover,
-  .smenu3:hover,
-  .smenu4:hover {
-    background-color: rgba(164, 88, 164, 0.368);
-  }
-  .smenu1:active,
-  .smenu2:active,
-  .smenu3:active,
-  .smenu4:active {
-    background-color: rgba(164, 88, 164, 0.368);
-    box-shadow: rgb(192, 69, 165);
-    transform: scale(1.05);
-    transition: all 100ms ease-in-out;
-  }
-}
+
 /* .nav-menunone {
     display: none;
   } */
