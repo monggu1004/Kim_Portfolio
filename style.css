@@ -17,18 +17,45 @@ body {
   display: none;
 }
 
-.submenu {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  background-image: linear-gradient(
-    90deg,
-    rgb(213, 200, 213),
-    rgb(220, 192, 220)
-  );
-  position: fixed;
-  z-index: 1;
+@media all and (max-width: 768px) {
+  .submenu {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(
+      90deg,
+      rgb(213, 200, 213),
+      rgb(220, 192, 220)
+    );
+
+    position: fixed;
+    z-index: 1;
+  }
+
+  .smenucontainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+  }
+
+  .smenu1,
+  .smenu2,
+  .smenu3,
+  .smenu4 {
+    width: 60vw;
+    height: 20%;
+    font-size: 5vw;
+    font-weight: bolder;
+    border-radius: 30px;
+    border: none;
+
+    box-shadow: 20px 20px 50px rgba(239, 168, 177, 0.655);
+  }
 }
 
 .hidden {
@@ -38,30 +65,6 @@ body {
 .visible {
   position: fixed;
   z-index: 1000;
-}
-
-.smenucontainer {
-  width: 100vw;
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10vw;
-}
-
-.smenu1,
-.smenu2,
-.smenu3,
-.smenu4 {
-  width: 60vw;
-  height: 20%;
-  font-size: 30px;
-  font-weight: bolder;
-  border-radius: 30px;
-  border: none;
-
-  box-shadow: 20px 20px 50px rgba(239, 168, 177, 0.655);
 }
 
 .home {
@@ -287,25 +290,25 @@ main {
 .titleone {
   font-size: 20vw;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  /* margin-left: 150px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-left: 8vw;
 
   text-shadow: 10px 10px 5px rgba(224, 156, 165, 0.705);
   animation: fallAndBounce 0.5s cubic-bezier(1, 0.7, 0.3, 0.01);
 }
 @media all and (max-width: 768px) {
-  .maintitle {
+  /* .maintitle {
     margin-right: 20vw;
-  }
-  .titletwo {
+  } */
+  /* .titletwo {
     margin-left: 20vw;
-  }
+  } */
 }
 
 .shake {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   animation: vibration 0.8s ease-out;
 }
 .scailDown {
