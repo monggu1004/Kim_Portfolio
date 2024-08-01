@@ -364,11 +364,16 @@ main {
     bottom: 20px;
     right: 20px;
   }
+  .fa-hand-point-up {
+    position: fixed;
+    bottom: 15vw;
+    right: 12vw;
+  }
   .fa-bars {
     font-size: 7vw;
     display: none;
     position: fixed;
-    top: 10vw;
+    top: 8vw;
     right: 10vw;
     z-index: 1001;
   }
@@ -654,14 +659,12 @@ main {
 
   .skillscontainer {
     display: flex;
-    background-color: brown;
     width: 100vw;
   }
 
   .skillssubcontainer {
     display: flex;
     gap: 8vw;
-    background-color: blue;
   }
   .detailsubcontainer {
     display: flex;
