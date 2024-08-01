@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/15df8433ed.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="home"><i class="fa-solid fa-circle-up"></i></div>
+    <i class="fa-solid fa-bars"></i>
+    <header>
+      <nav>
+        <ul class="nav-menu">
+          <li class="submenu-n1">ABOUT ME</li>
+          <li class="submenu-n2">SKILLS</li>
+          <li class="submenu-n3">PROJECTS</li>
+          <li class="submenu-n4">CONTACT</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="submenu hidden">
+      <div class="smenucontainer">
+        <button class="smenu1">ABOUT ME</button>
+        <button class="smenu2">SKILLS</button>
+        <button class="smenu3">PROJECTS</button>
+        <button class="smenu4">CONTACT</button>
+      </div>
+    </div>
+
+    <main>
+      <div class="mainpage">
+        <div class="maintitle">
+          <div class="titleone">KIM HAEBIN</div>
+          <div class="titletwo">PORTFOLIO</div>
+        </div>
+      </div>
+      <div class="aboutpage">
+        <div class="abouttitle">ABOUT ME</div>
+        <div class="aboutcontainer">
+          <div class="abouttitleline">
+            안녕하세요, 프론트엔드 개발자 김해빈입니다.
+          </div>
+          <div class="aboutlinescontainer">
+            <div class="aboutlines">
+              ✅ 배움을 즐기고 새로운 지식에서 즐거움을 찾습니다.
+            </div>
+            <div class="aboutlines">
+              ✅ 목표 달성을 위한 주체성과 끈기가 강합니다.
+            </div>
+            <div class="aboutlines">
+              ✅ IT 기술에 사회 문제를 녹여내는 개발자가 되고 싶습니다.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skillpage">
+        <div class="skilltitle">SKILLS</div>
+
+        <div class="skillscontainer">
+          <div class="skillssubcontainer">
+            <i class="fa-solid fa-user"></i>
+            <div class="detailsubcontainer">
+              <div class="userdetail">김해빈</div>
+              <div class="userdetail">00.02.14</div>
+            </div>
+          </div>
+
+          <div class="skillssubcontainer">
+            <i class="fa-solid fa-check"></i>
+            <div class="detailsubcontainer">
+              <div class="skilldetail">JavaScript</div>
+              <div class="skilldetail">CSS</div>
+              <div class="skilldetail">HTML</div>
+            </div>
+          </div>
+
+          <div class="skillssubcontainer">
+            <i class="fa-solid fa-id-card"></i>
+            <div class="detailsubcontainer">
+              <div class="licensedetail">TOEIC 955</div>
+              <div class="licensedetail">Driver's license</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="projectpage">
+        <div class="projecttitlename">PROJECTS</div>
+
+        <div class="projectcontainer">
+          <div class="projectimgcontainer">
+            <img class="projectimg" src="./img/loopy2.jpg" alt="" />
+          </div>
+
+          <div class="projectcontentscontainer">
+            <div class="projectname">프로젝트 제목이 들어갈 자리입니다.</div>
+
+            <div class="projectskills">
+              <div class="projectskill">HTML</div>
+              <div class="projectskill">CSS</div>
+              <div class="projectskill">JavaScript</div>
+            </div>
+
+            <div class="projectcontentline"></div>
+
+            <div class="projecticon">
+              <a
+                target="_blank"
+                href="https://github.com/monggu1004/loopy_practice"
+              >
+                <i class="fa-brands fa-square-github"></i>
+              </a>
+              <a
+                target="_blank"
+                href="https://monggu1004.github.io/loopy_practice/"
+              >
+                <i class="fa-solid fa-link"></i>
+              </a>
+            </div>
+
+            <div class="projectexplain">
+              프로젝트 설명이 들어갈 자리입니다<br />daglsdkfhl <br />sadfagkf
+              <br />asudgfiausd.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contactpage">
+        <div class="contacttitle">Contact</div>
+        <div class="contactcontainer">
+          <div class="phone">
+            <i class="fa-solid fa-phone"></i>
+            <div class="phonenumber">(+82)010-3178-3527</div>
+          </div>
+          <div class="email">
+            <i class="fa-solid fa-envelope"></i>
+            <div class="emailnumber">kimhaebin31@gmail.com</div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="copyright">© 2024. KimHaebin all rights reserved.</div>
+      </footer>
+    </main>
+
+    <script src="./js/scrolltoabout.js"></script>
+    <script src="./js/scrolltoskills.js"></script>
+    <script src="./js/scrolltoproject.js"></script>
+    <script src="./js/scrolltocontact.js"></script>
+    <script src="./js/home.js"></script>
+    <script src="./js/navigator.js"></script>
+    <script src="./js/gitlink.js"></script>
+    <script src="./js/submenu.js"></script>
+    <script src="./js/smenuscroll.js"></script>
+    <script src="./js/submenuvisible.js"></script>
+    <script src="maintitleanmation.js"></script>
+    <script src="maintitlesub.js"></script>
+  </body>
+</html>
