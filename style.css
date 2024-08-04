@@ -377,20 +377,20 @@ main {
   .home {
     font-size: 7vw;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 5vw;
+    right: 5vw;
   }
   .fa-hand-point-up {
     position: fixed;
-    bottom: 15vw;
-    right: 12vw;
+    bottom: 5vw;
+    right: 5vw;
   }
   .fa-bars {
     font-size: 7vw;
     display: none;
     position: fixed;
-    top: 8vw;
-    right: 10vw;
+    top: 5vw;
+    right: 5vw;
     z-index: 1001;
   }
   .mainpage {
