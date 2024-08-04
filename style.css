@@ -191,7 +191,21 @@ nav {
   transform: scale(1.05);
   transition: all 100ms ease-in-out;
 }
-
+@media all and (min-width: 769px) {
+  .smenu1,
+  .smenu2,
+  .smenu3,
+  .smenu4 {
+    transition: all 200ms ease-in-out;
+    border-radius: 20px;
+    box-shadow: rgba(192, 69, 165, 0.861);
+    background-color: rgba(219, 219, 219, 0.694);
+    padding: 2vw 0.5vw;
+    height: 15vw;
+    width: 80vw;
+    display: none;
+  }
+}
 .submenu-n4,
 .submenu-n3,
 .submenu-n2,
