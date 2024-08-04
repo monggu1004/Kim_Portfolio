@@ -173,6 +173,8 @@ nav {
   box-shadow: rgba(192, 69, 165, 0.861);
   background-color: rgba(219, 219, 219, 0.694);
   padding: 2vw 0.5vw;
+  height: 15vw;
+  width: 80vw;
 }
 .smenu1:hover,
 .smenu2:hover,
