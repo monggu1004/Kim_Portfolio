@@ -883,6 +883,7 @@ main {
 
   .projectname {
     font-size: 5vw;
+    margin-bottom: 5vw;
   }
 
   .projectskills {
@@ -1015,6 +1016,7 @@ main {
     align-items: center;
     gap: 3vw;
     margin-top: 20vw;
+    margin-right: 10vw;
   }
 }
 
