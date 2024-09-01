@@ -765,6 +765,7 @@ main {
   width: 40vw;
   height: 30vw;
   border-radius: 20px;
+  background-color: brown;
   /* margin: 70px 50px; */
   /* display: flex;
     flex-direction: column;
@@ -860,10 +861,11 @@ main {
     justify-content: center;
     align-items: center;
     width: 100vw;
+    border: solid;
   }
   .projectimg {
     width: 80vw;
-    height: 50vw;
+    height: 40vw;
     border-radius: 20px;
     /* margin: 70px 50px; */
     /* display: flex;
